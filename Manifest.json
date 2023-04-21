@@ -1,0 +1,15 @@
+{
+    "name" : "Adblocker Extension",
+    "version" : "0.0.1",
+    "manifest_version" : 2,
+    "content_scripts":[{
+        "js":["script.js"],
+        "run at":"document_idle",
+        "matches":["<all_urls>"]
+    }],
+
+
+"permissions" : ["activeTab","tabs"]
+
+
+}
